@@ -1,0 +1,8 @@
+H:\BTHPTPMQL\obj\Debug\net8.0\Huy Hoang.GeneratedMSBuildEditorConfig.editorconfig
+H:\BTHPTPMQL\obj\Debug\net8.0\Huy Hoang.AssemblyInfoInputs.cache
+H:\BTHPTPMQL\obj\Debug\net8.0\Huy Hoang.AssemblyInfo.cs
+H:\BTHPTPMQL\obj\Debug\net8.0\Huy Hoang.csproj.CoreCompileInputs.cache
+H:\BTHPTPMQL\obj\Debug\net8.0\Huy Hoang.MvcApplicationPartsAssemblyInfo.cache
+H:\BTHPTPMQL\obj\Debug\net8.0\Huy Hoang.RazorAssemblyInfo.cache
+H:\BTHPTPMQL\obj\Debug\net8.0\Huy Hoang.RazorAssemblyInfo.cs
+H:\BTHPTPMQL\obj\Debug\net8.0\Huy Hoang.sourcelink.json
