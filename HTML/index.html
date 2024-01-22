@@ -2,20 +2,17 @@
 <html>
 <body>
 
-<h1>Thiều Huy Hoàng</h1>
+<canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML canvas tag.</canvas>
 
-<p>Thiều Huy Hoàng 2021050286</p>
-
-<form action="/action_page.php">
-  <label for="fname">Tài Khoản:</label>
-  <input type="text" id="fname" name="fname"><br><br>
-  <label for="lname">Mật Khẩu:</label>
-  <input type="text" id="lname" name="lname"><br><br>
-  <input type="submit" value="Submit">
-  
-  <input type="submit" formaction="/action_page2.php" value="Đăng nhập admin">
-</form>
+<script>
+var c = document.getElementById("myCanvas");
+var ctx = c.getContext("2d");
+ctx.beginPath();
+ctx.arc(95,50,40,0,2*Math.PI);
+ctx.stroke();
+</script> 
+<p> Thiều Huy Hoàng 2021050286 </p>
 
 </body>
 </html>
-
