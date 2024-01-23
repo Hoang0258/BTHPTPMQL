@@ -1,13 +1,17 @@
 
   
-  h1 {   background-color: green;
-    border-style: groove ;
-    
-    color: navy; /* đây là màu xanh đậm */
-    margin-left: 200px;
+  h1 {  border: 1px solid black;
+    margin: 25px 50px 75px 100px;
+    background-color: lightblue;
   }
   p {   background-color: yellowgreen;
     border-style: dotted
     color:mediumturquoise;
-   font-size: 50px; /* fonr-size là kích cỡ chữ 1*/
+   font-size: 50px; 
+  }
+  div {
+    border: 1px solid black;
+    margin: 25px 50px 75px 100px;
+    background-color: lightblue;
+    font-size: 50px;
   }
