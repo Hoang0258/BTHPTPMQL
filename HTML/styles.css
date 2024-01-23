@@ -3,10 +3,10 @@
   }
   
   h1 {
-    color: navy;
+    color: navy; /* đây là màu xanh đậm */
     margin-left: 200px;
   }
   p {
     color:mediumturquoise;
-   font-size: 200px;
+   font-size: 200px; /* fonr-size là kích cỡ chữ*/
   }
