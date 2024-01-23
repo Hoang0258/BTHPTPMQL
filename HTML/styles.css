@@ -1,10 +1,10 @@
 
   
-  h1 {
+  h1 {   background-color: green;
     color: navy; /* đây là màu xanh đậm */
     margin-left: 200px;
   }
-  p {
+  p {   background-color: yellowgreen;
     color:mediumturquoise;
    font-size: 50px; /* fonr-size là kích cỡ chữ 1*/
   }
