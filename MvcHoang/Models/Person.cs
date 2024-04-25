@@ -1,11 +1,16 @@
 using System.ComponentModel.DataAnnotations;
-namespace MvcHoang.Models ;
-public class Person
+using System.ComponentModel.DataAnnotations.Schema;
+namespace MvcHoang.Models 
 {
+    [Table("Person")]
+
+    public class Person
+{
+    [Key]
     public string PersonId { get ; set;}
     public string FullName { get ; set ;}
-    [ DataType(DataType.Date) ]
+
     
     public string Address { get ; set ;}    
-   
+}   
 }
