@@ -1,7 +1,12 @@
+using System.ComponentModel.DataAnnotations.Schema;
+using System.ComponentModel.DataAnnotations;
 namespace MvcHoang.Models
 {
+     [Table("DaiLy")]
     public class DaiLy
     {
+        [Key]
+
         public string MaDaiLy { get; set;}
         public string TenDaiLy { get; set;}
         public string DiaChi { get; set;}

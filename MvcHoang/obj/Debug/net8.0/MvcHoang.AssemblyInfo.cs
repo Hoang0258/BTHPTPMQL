@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("MvcHoang")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+076559636993b01d3b7bb23424dc4c8fd816603b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+93b5ce58d9298d98dc646d5f81ddc21ed7e3ee63")]
 [assembly: System.Reflection.AssemblyProductAttribute("MvcHoang")]
 [assembly: System.Reflection.AssemblyTitleAttribute("MvcHoang")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
