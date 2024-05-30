@@ -8,36 +8,33 @@ using Microsoft.EntityFrameworkCore;
 using MvcHoang.Data;
 using MvcHoang.Models;
 using MvcHoang.Models.Process;
-using OfficeOpenXml;
-using X.PagedList;
+
 
 namespace MvcHoang.Controllers
 {
-    public class PersonController : Controller
+    public class StudentController : Controller
     {
         private readonly ApplicationDbContext _context;
-
-         private ExcelProcess _excelProcess = new ExcelProcess();
-        public PersonController(ApplicationDbContext context)
+        private ExcelProcess _excelProcess = new ExcelProcess();
+        public StudentController(ApplicationDbContext context)
         {
             _context = context;
         }
 
-        // GET: Person
-        public async Task<IActionResult> Index(int? page)
+        // GET: Student
+        public async Task<IActionResult> Index()
         {
-            var model = _context.Student.ToList().ToPagedList(page ?? 1, 5);
-            return View(model);
-        }  
-        [HttpPost]
+            return View(await _context.Student.ToListAsync());
+            
+        }
+ [HttpPost]
         public async Task<IActionResult> Index( string searchTen)
         {
             
-            return View(await _context.Person.Where(m => m.FullName.Contains(searchTen)).ToListAsync());
+            return View(await _context.Student.Where(m => m.FullName.Contains(searchTen)|| m.StudentID.Contains(searchTen)).ToListAsync());
         
         }
-
-        // GET: Person/Details/5
+        // GET: Student/Details/5
         public async Task<IActionResult> Details(string id)
         {
             if (id == null)
@@ -45,39 +42,39 @@ namespace MvcHoang.Controllers
                 return NotFound();
             }
 
-            var person = await _context.Person
-                .FirstOrDefaultAsync(m => m.PersonId == id);
-            if (person == null)
+            var student = await _context.Student
+                .FirstOrDefaultAsync(m => m.StudentID == id);
+            if (student == null)
             {
                 return NotFound();
             }
 
-            return View(person);
+            return View(student);
         }
 
-        // GET: Person/Create
+        // GET: Student/Create
         public IActionResult Create()
         {
             return View();
         }
 
-        // POST: Person/Create
+        // POST: Student/Create
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create([Bind("PersonId,FullName,Address")] Person person)
+        public async Task<IActionResult> Create([Bind("StudentID,FullName,Age")] Student student)
         {
             if (ModelState.IsValid)
             {
-                _context.Add(person);
+                _context.Add(student);
                 await _context.SaveChangesAsync();
                 return RedirectToAction(nameof(Index));
             }
-            return View(person);
+            return View(student);
         }
 
-        // GET: Person/Edit/5
+        // GET: Student/Edit/5
         public async Task<IActionResult> Edit(string id)
         {
             if (id == null)
@@ -85,22 +82,22 @@ namespace MvcHoang.Controllers
                 return NotFound();
             }
 
-            var person = await _context.Person.FindAsync(id);
-            if (person == null)
+            var student = await _context.Student.FindAsync(id);
+            if (student == null)
             {
                 return NotFound();
             }
-            return View(person);
+            return View(student);
         }
 
-        // POST: Person/Edit/5
+        // POST: Student/Edit/5
         // To protect from overposting attacks, enable the specific properties you want to bind to.
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(string id, [Bind("PersonId,FullName,Address")] Person person)
+        public async Task<IActionResult> Edit(string id, [Bind("StudentID,FullName,Age")] Student student)
         {
-            if (id != person.PersonId)
+            if (id != student.StudentID)
             {
                 return NotFound();
             }
@@ -109,12 +106,12 @@ namespace MvcHoang.Controllers
             {
                 try
                 {
-                    _context.Update(person);
+                    _context.Update(student);
                     await _context.SaveChangesAsync();
                 }
                 catch (DbUpdateConcurrencyException)
                 {
-                    if (!PersonExists(person.PersonId))
+                    if (!StudentExists(student.StudentID))
                     {
                         return NotFound();
                     }
@@ -125,10 +122,10 @@ namespace MvcHoang.Controllers
                 }
                 return RedirectToAction(nameof(Index));
             }
-            return View(person);
+            return View(student);
         }
 
-        // GET: Person/Delete/5
+        // GET: Student/Delete/5
         public async Task<IActionResult> Delete(string id)
         {
             if (id == null)
@@ -136,36 +133,36 @@ namespace MvcHoang.Controllers
                 return NotFound();
             }
 
-            var person = await _context.Person
-                .FirstOrDefaultAsync(m => m.PersonId == id);
-            if (person == null)
+            var student = await _context.Student
+                .FirstOrDefaultAsync(m => m.StudentID == id);
+            if (student == null)
             {
                 return NotFound();
             }
 
-            return View(person);
+            return View(student);
         }
 
-        // POST: Person/Delete/5
+        // POST: Student/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> DeleteConfirmed(string id)
         {
-            var person = await _context.Person.FindAsync(id);
-            if (person != null)
+            var student = await _context.Student.FindAsync(id);
+            if (student != null)
             {
-                _context.Person.Remove(person);
+                _context.Student.Remove(student);
             }
 
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
-        private bool PersonExists(string id)
+        private bool StudentExists(string id)
         {
-            return _context.Person.Any(e => e.PersonId == id);
+            return _context.Student.Any(e => e.StudentID == id);
         }
-  // uploads
+        // uploads
     public async Task<IActionResult> Upload()
     {
         return View();
@@ -194,7 +191,6 @@ namespace MvcHoang.Controllers
 
 
                 {await file.CopyToAsync(stream);
-                
                 var dt = _excelProcess.ExcelToDataTable(fileLocation);
                     //using for loop to read data from dt
                     for (int i = 0; i < dt.Rows.Count; i++)
@@ -209,35 +205,11 @@ namespace MvcHoang.Controllers
                     _context.Add(ps);
                     }
                     await _context.SaveChangesAsync();
-                    return RedirectToAction(nameof(Index));}
+                    return RedirectToAction(nameof(Index));
                 }
+            }
         }
-    
-        
-        return View();
-    }
-
-    // Download   
-        public IActionResult Download()
-        {
-        //Name the file when downloading
-        var fileName = "YourFileName" + ".xlsx";
-        using (ExcelPackage excelPackage = new ExcelPackage())
-        {
-        ExcelWorksheet worksheet = excelPackage.Workbook.Worksheets.Add("Sheet 1");
-        //add some text to cell A1
-        worksheet.Cells["A1"].Value = "StudentID"; 
-        worksheet.Cells["B1"].Value = "FullName";
-        worksheet.Cells["C1"].Value = "Age"; 
-        //get all Person
-        var studentList = _context.Student.ToList(); 
-        //fill data to worksheet
-        worksheet.Cells["A2"].LoadFromCollection (studentList);
-        var stream = new MemoryStream (excelPackage.GetAsByteArray()); //download file
-        return File(stream, "application/vnd.openxmlformats-officedocument.spreadsheetml.sheet", fileName);
-        }
-    
-    }
-}
-
-}
+    return View();
+    } 
+       }
+   }

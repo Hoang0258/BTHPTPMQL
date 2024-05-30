@@ -1,0 +1,64 @@
+@model IEnumerable<MvcHoang.Models.Student>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>  Student List</h1>
+<div>
+ <form asp-action="Index">
+ 
+    <input type="text" name="searchTen" placeholder="Nhập tên cần tìm...">
+    <button asp-action="Index" type="submit" value="Tìm kiếm">Tìm Kiếm</button>
+</form>
+
+@{
+    ViewData["Title"] = "Index1";
+}
+
+<table class="table">
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr> 
+             <th>
+                @Html.DisplayNameFor(model => model.StudentID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Age)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.StudentID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Age)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.StudentID">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.StudentID">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.StudentID">Delete</a>
+            </td>
+        </tr>
+   
+       
+}
+    </tbody>
+</table>
+
+<div>
+    <a  style="text-decoration: none;"asp-action="Index">Back to List</a>
+</div>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\BTHPTPMQL\\MvcHoang\\MvcHoang.csproj": {}
+    "H:\\BTHPTPMQL\\mvcHoang\\MvcHoang.csproj": {}
   },
   "projects": {
-    "H:\\BTHPTPMQL\\MvcHoang\\MvcHoang.csproj": {
+    "H:\\BTHPTPMQL\\mvcHoang\\MvcHoang.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\BTHPTPMQL\\MvcHoang\\MvcHoang.csproj",
+        "projectUniqueName": "H:\\BTHPTPMQL\\mvcHoang\\MvcHoang.csproj",
         "projectName": "MvcHoang",
-        "projectPath": "H:\\BTHPTPMQL\\MvcHoang\\MvcHoang.csproj",
+        "projectPath": "H:\\BTHPTPMQL\\mvcHoang\\MvcHoang.csproj",
         "packagesPath": "C:\\Users\\Huy Hoang\\.nuget\\packages\\",
-        "outputPath": "H:\\BTHPTPMQL\\MvcHoang\\obj\\",
+        "outputPath": "H:\\BTHPTPMQL\\mvcHoang\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Huy Hoang\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -70,6 +70,10 @@
             "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
               "target": "Package",
               "version": "[8.0.1, )"
+            },
+            "X.PagedList.Mvc.Core": {
+              "target": "Package",
+              "version": "[9.1.2, )"
             }
           },
           "imports": [
@@ -91,7 +95,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.206/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

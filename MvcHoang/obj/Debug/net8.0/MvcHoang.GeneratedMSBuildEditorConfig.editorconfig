@@ -17,83 +17,103 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MvcHoang
 build_property.RootNamespace = MvcHoang
-build_property.ProjectDir = H:\BTHPTPMQL\MvcHoang\
+build_property.ProjectDir = H:\BTHPTPMQL\mvcHoang\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 8.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
-build_property.MSBuildProjectDirectory = H:\BTHPTPMQL\MvcHoang
+build_property.MSBuildProjectDirectory = H:\BTHPTPMQL\mvcHoang
 build_property._RazorSourceGeneratorDebug = 
 
-[H:/BTHPTPMQL/MvcHoang/Views/HelloWorld/Index.cshtml]
+[H:/BTHPTPMQL/mvcHoang/Views/HelloWorld/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVsbG9Xb3JsZFxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/BTHPTPMQL/MvcHoang/Views/HeThongPhanPhoi/Create.cshtml]
+[H:/BTHPTPMQL/mvcHoang/Views/HeThongPhanPhoi/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVUaG9uZ1BoYW5QaG9pXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/BTHPTPMQL/MvcHoang/Views/HeThongPhanPhoi/Delete.cshtml]
+[H:/BTHPTPMQL/mvcHoang/Views/HeThongPhanPhoi/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVUaG9uZ1BoYW5QaG9pXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/BTHPTPMQL/MvcHoang/Views/HeThongPhanPhoi/Details.cshtml]
+[H:/BTHPTPMQL/mvcHoang/Views/HeThongPhanPhoi/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVUaG9uZ1BoYW5QaG9pXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/BTHPTPMQL/MvcHoang/Views/HeThongPhanPhoi/Edit.cshtml]
+[H:/BTHPTPMQL/mvcHoang/Views/HeThongPhanPhoi/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVUaG9uZ1BoYW5QaG9pXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/BTHPTPMQL/MvcHoang/Views/HeThongPhanPhoi/Index.cshtml]
+[H:/BTHPTPMQL/mvcHoang/Views/HeThongPhanPhoi/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSGVUaG9uZ1BoYW5QaG9pXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/BTHPTPMQL/MvcHoang/Views/Home/Index.cshtml]
+[H:/BTHPTPMQL/mvcHoang/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/BTHPTPMQL/MvcHoang/Views/Home/Privacy.cshtml]
+[H:/BTHPTPMQL/mvcHoang/Views/Home/Privacy.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/BTHPTPMQL/MvcHoang/Views/Person/Create.cshtml]
+[H:/BTHPTPMQL/mvcHoang/Views/Person/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/BTHPTPMQL/MvcHoang/Views/Person/Delete.cshtml]
+[H:/BTHPTPMQL/mvcHoang/Views/Person/Delete.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXERlbGV0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/BTHPTPMQL/MvcHoang/Views/Person/Details.cshtml]
+[H:/BTHPTPMQL/mvcHoang/Views/Person/Details.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXERldGFpbHMuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/BTHPTPMQL/MvcHoang/Views/Person/Edit.cshtml]
+[H:/BTHPTPMQL/mvcHoang/Views/Person/Edit.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEVkaXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/BTHPTPMQL/MvcHoang/Views/Person/Index.cshtml]
+[H:/BTHPTPMQL/mvcHoang/Views/Person/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/BTHPTPMQL/MvcHoang/Views/Shared/Error.cshtml]
+[H:/BTHPTPMQL/mvcHoang/Views/Shared/Error.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/BTHPTPMQL/MvcHoang/Views/Shared/_ValidationScriptsPartial.cshtml]
+[H:/BTHPTPMQL/mvcHoang/Views/Shared/_ValidationScriptsPartial.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/BTHPTPMQL/MvcHoang/Views/_ViewImports.cshtml]
+[H:/BTHPTPMQL/mvcHoang/Views/Student/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/BTHPTPMQL/mvcHoang/Views/Student/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/BTHPTPMQL/mvcHoang/Views/Student/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/BTHPTPMQL/mvcHoang/Views/Student/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/BTHPTPMQL/mvcHoang/Views/Student/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU3R1ZGVudFxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[H:/BTHPTPMQL/mvcHoang/Views/_ViewImports.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/BTHPTPMQL/MvcHoang/Views/_ViewStart.cshtml]
+[H:/BTHPTPMQL/mvcHoang/Views/_ViewStart.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
-[H:/BTHPTPMQL/MvcHoang/Views/Shared/_Layout.cshtml]
+[H:/BTHPTPMQL/mvcHoang/Views/Shared/_Layout.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = b-q9fgzprr53
