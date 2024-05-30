@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "MiBUrSvLgqtb4/qNEjz7fjOL/meNTI6dgdx/WKcdQZytCp/Hwd9FT1hyIzjGfPStDvwEf/cWQIbggLiNlFYf4g==",
+  "dgSpecHash": "YPrsTE3ePcC/lTBgLct60m3kKUphPFXyYc03rAfjji5GkkHtZDV0E0YEz4bQlVcAFnAuNl2Y8wM+Eb/v1nSIXA==",
   "success": true,
-  "projectFilePath": "H:\\BTHPTPMQL\\mvcHoang\\MvcHoang.csproj",
+  "projectFilePath": "H:\\BTHPTPMQL\\MvcHoang\\MvcHoang.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Huy Hoang\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\Huy Hoang\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "H:\\BTHPTPMQL\\mvcHoang\\MvcHoang.csproj": {}
+    "H:\\BTHPTPMQL\\MvcHoang\\MvcHoang.csproj": {}
   },
   "projects": {
-    "H:\\BTHPTPMQL\\mvcHoang\\MvcHoang.csproj": {
+    "H:\\BTHPTPMQL\\MvcHoang\\MvcHoang.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "H:\\BTHPTPMQL\\mvcHoang\\MvcHoang.csproj",
+        "projectUniqueName": "H:\\BTHPTPMQL\\MvcHoang\\MvcHoang.csproj",
         "projectName": "MvcHoang",
-        "projectPath": "H:\\BTHPTPMQL\\mvcHoang\\MvcHoang.csproj",
+        "projectPath": "H:\\BTHPTPMQL\\MvcHoang\\MvcHoang.csproj",
         "packagesPath": "C:\\Users\\Huy Hoang\\.nuget\\packages\\",
-        "outputPath": "H:\\BTHPTPMQL\\mvcHoang\\obj\\",
+        "outputPath": "H:\\BTHPTPMQL\\MvcHoang\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Huy Hoang\\AppData\\Roaming\\NuGet\\NuGet.Config"
