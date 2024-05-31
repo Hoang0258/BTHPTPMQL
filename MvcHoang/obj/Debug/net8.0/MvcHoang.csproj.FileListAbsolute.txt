@@ -283,3 +283,4 @@ H:\BTHPTPMQL\MvcHoang\bin\Debug\net8.0\Microsoft.IO.RecyclableMemoryStream.dll
 H:\BTHPTPMQL\MvcHoang\obj\Debug\net8.0\MvcHoang.MvcApplicationPartsAssemblyInfo.cs
 H:\BTHPTPMQL\MvcHoang\bin\Debug\net8.0\X.PagedList.dll
 H:\BTHPTPMQL\MvcHoang\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll
+H:\BTHPTPMQL\MvcHoang\bin\Debug\net8.0\X.PagedList.Web.Common.dll

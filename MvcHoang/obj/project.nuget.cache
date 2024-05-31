@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "YPrsTE3ePcC/lTBgLct60m3kKUphPFXyYc03rAfjji5GkkHtZDV0E0YEz4bQlVcAFnAuNl2Y8wM+Eb/v1nSIXA==",
+  "dgSpecHash": "VA2LIHby1Uwpjd+zpT3nmuK6Pa2abaT2C71ZH5k/uNdHajCOEg//znrEytgySsqdhsJ5frgXEOb47Da3sjEP+A==",
   "success": true,
   "projectFilePath": "H:\\BTHPTPMQL\\MvcHoang\\MvcHoang.csproj",
   "expectedPackageFiles": [
@@ -182,7 +182,8 @@
     "C:\\Users\\Huy Hoang\\.nuget\\packages\\system.threading.tasks.extensions\\4.5.4\\system.threading.tasks.extensions.4.5.4.nupkg.sha512",
     "C:\\Users\\Huy Hoang\\.nuget\\packages\\system.windows.extensions\\7.0.0\\system.windows.extensions.7.0.0.nupkg.sha512",
     "C:\\Users\\Huy Hoang\\.nuget\\packages\\x.pagedlist\\9.1.2\\x.pagedlist.9.1.2.nupkg.sha512",
-    "C:\\Users\\Huy Hoang\\.nuget\\packages\\x.pagedlist.mvc.core\\9.1.2\\x.pagedlist.mvc.core.9.1.2.nupkg.sha512"
+    "C:\\Users\\Huy Hoang\\.nuget\\packages\\x.pagedlist.mvc.core\\9.1.2\\x.pagedlist.mvc.core.9.1.2.nupkg.sha512",
+    "C:\\Users\\Huy Hoang\\.nuget\\packages\\x.pagedlist.web.common\\8.0.7\\x.pagedlist.web.common.8.0.7.nupkg.sha512"
   ],
   "logs": []
 }
